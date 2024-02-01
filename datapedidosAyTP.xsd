@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="datapedidosAyTP" targetNamespace="http://tempuri.org/datapedidosAyTP.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/datapedidosAyTP.xsd" xmlns:mstns="http://tempuri.org/datapedidosAyTP.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="datapedidosAyTP" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="PEDIDOS">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PED_CODIGO" type="xs:string" minOccurs="0" />
+							<xs:element name="FECHA" type="xs:string" minOccurs="0" />
+							<xs:element name="COD_ORDENSALIDA" type="xs:string" minOccurs="0" />
+							<xs:element name="CLIENTE" type="xs:string" minOccurs="0" />
+							<xs:element name="ESTADO" type="xs:string" minOccurs="0" />
+							<xs:element name="PERSONAL" type="xs:string" minOccurs="0" />
+							<xs:element name="MODIFICACION" type="xs:string" minOccurs="0" />
+							<xs:element name="observacion" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

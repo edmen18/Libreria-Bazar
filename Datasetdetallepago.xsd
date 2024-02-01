@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="Datasetdetallepago" targetNamespace="http://tempuri.org/Datasetdetallepago.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/Datasetdetallepago.xsd"
+	xmlns:mstns="http://tempuri.org/Datasetdetallepago.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Datasetdetallepago" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="deudas">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="cl_codigo" type="xs:string" minOccurs="0" />
+							<xs:element name="nombre" type="xs:string" minOccurs="0" />
+							<xs:element name="cl_dni" type="xs:string" minOccurs="0" />
+							<xs:element name="cl_direccion" type="xs:string" minOccurs="0" />
+							<xs:element name="telefono" type="xs:string" minOccurs="0" />
+							<xs:element name="debe" type="xs:string" minOccurs="0" />
+							<xs:element name="cancelado" type="xs:string" minOccurs="0" />
+							<xs:element name="total" type="xs:string" />
+							<xs:element name="monto" type="xs:string" minOccurs="0" />
+							<xs:element name="fecha" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

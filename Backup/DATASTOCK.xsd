@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="DATASTOCK" targetNamespace="http://tempuri.org/DATASTOCK.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/DATASTOCK.xsd" xmlns:mstns="http://tempuri.org/DATASTOCK.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="DATASTOCK" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="STOCK">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CODIGO" type="xs:string" minOccurs="0" />
+							<xs:element name="PRODUCTO" type="xs:string" minOccurs="0" />
+							<xs:element name="UNIDAD" type="xs:string" minOccurs="0" />
+							<xs:element name="STOCK_ACTUAL" type="xs:string" minOccurs="0" />
+							<xs:element name="STOCK_MINIMO" type="xs:string" minOccurs="0" />
+							<xs:element name="STOCK_MAXIMO" type="xs:string" minOccurs="0" />
+							<xs:element name="pro_precio" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

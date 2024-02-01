@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="Datasetboletas" targetNamespace="http://tempuri.org/Datasetboletas.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/Datasetboletas.xsd" xmlns:mstns="http://tempuri.org/Datasetboletas.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Datasetboletas" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="boletas">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="codigo_comprobante" type="xs:string" minOccurs="0" />
+							<xs:element name="codigo_boleta" type="xs:string" minOccurs="0" />
+							<xs:element name="fecha" type="xs:string" minOccurs="0" />
+							<xs:element name="personal" type="xs:string" minOccurs="0" />
+							<xs:element name="pv_descripcion" type="xs:string" minOccurs="0" />
+							<xs:element name="importe" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

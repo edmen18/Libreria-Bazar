@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="Datasetdetalle_guia" targetNamespace="http://tempuri.org/Datasetdetalle_guia.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/Datasetdetalle_guia.xsd"
+	xmlns:mstns="http://tempuri.org/Datasetdetalle_guia.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Datasetdetalle_guia" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="guia">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="codigo_guia" type="xs:string" minOccurs="0" />
+							<xs:element name="pv_descripcion" type="xs:string" minOccurs="0" />
+							<xs:element name="NUMERO_GUIA" type="xs:string" minOccurs="0" />
+							<xs:element name="monto" type="xs:string" minOccurs="0" />
+							<xs:element name="estado" type="xs:string" minOccurs="0" />
+							<xs:element name="dc_cantidad" type="xs:string" minOccurs="0" />
+							<xs:element name="importe" type="xs:string" minOccurs="0" />
+							<xs:element name="pro_codigo" type="xs:string" minOccurs="0" />
+							<xs:element name="pro_descripcion" type="xs:string" minOccurs="0" />
+							<xs:element name="descripcion" type="xs:string" minOccurs="0" />
+							<xs:element name="peso_carga" type="xs:string" minOccurs="0" />
+							<xs:element name="peso_total" type="xs:string" minOccurs="0" />
+							<xs:element name="punto_partida" type="xs:string" minOccurs="0" />
+							<xs:element name="ruc" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

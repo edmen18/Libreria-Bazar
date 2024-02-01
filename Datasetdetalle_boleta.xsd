@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="Datasetdetalle_boleta" targetNamespace="http://tempuri.org/Datasetdetalle_boleta.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/Datasetdetalle_boleta.xsd"
+	xmlns:mstns="http://tempuri.org/Datasetdetalle_boleta.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Datasetdetalle_boleta" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="boleta1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="codigo_comprobante" type="xs:string" minOccurs="0" />
+							<xs:element name="codigo_boleta" type="xs:string" minOccurs="0" />
+							<xs:element name="fecha" type="xs:string" minOccurs="0" />
+							<xs:element name="pro_descripcion" type="xs:string" minOccurs="0" />
+							<xs:element name="dc_cantidad" type="xs:string" minOccurs="0" />
+							<xs:element name="total" type="xs:string" minOccurs="0" />
+							<xs:element name="importe" type="xs:string" minOccurs="0" />
+							<xs:element name="PV_DESCRIPCION" type="xs:string" minOccurs="0" />
+							<xs:element name="RUC" type="xs:string" minOccurs="0" />
+							<xs:element name="dirección" type="xs:string" minOccurs="0" />
+							<xs:element name="telefono" type="xs:string" minOccurs="0" />
+							<xs:element name="marca" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

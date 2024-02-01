@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="Datasetvxcmp" targetNamespace="http://tempuri.org/Datasetvxcmp.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/Datasetvxcmp.xsd" xmlns:mstns="http://tempuri.org/Datasetvxcmp.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Datasetvxcmp" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="comprobantes">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="v_codigo" type="xs:string" minOccurs="0" />
+							<xs:element name="v_fecha" type="xs:string" minOccurs="0" />
+							<xs:element name="total" type="xs:string" minOccurs="0" />
+							<xs:element name="dv_precio" type="xs:string" minOccurs="0" />
+							<xs:element name="dv_cantidad" type="xs:string" minOccurs="0" />
+							<xs:element name="descripcion" type="xs:string" minOccurs="0" />
+							<xs:element name="comprobante" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="Datasetdeudores" targetNamespace="http://tempuri.org/Datasetdeudores.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/Datasetdeudores.xsd" xmlns:mstns="http://tempuri.org/Datasetdeudores.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Datasetdeudores" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="deudores">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nombre" type="xs:string" minOccurs="0" />
+							<xs:element name="cl_dni" type="xs:string" minOccurs="0" />
+							<xs:element name="cl_direccion" type="xs:string" minOccurs="0" />
+							<xs:element name="telefono" type="xs:string" minOccurs="0" />
+							<xs:element name="debe" type="xs:string" minOccurs="0" />
+							<xs:element name="CANCELADO" type="xs:string" minOccurs="0" />
+							<xs:element name="TOTAL" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

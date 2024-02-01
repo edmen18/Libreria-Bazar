@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="DataSet3" targetNamespace="http://www.tempuri.org/DataSet3.xsd" xmlns:mstns="http://www.tempuri.org/DataSet3.xsd" xmlns="http://www.tempuri.org/DataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="DataSet3" msdata:IsDataSet="true" msdata:Locale="es-ES">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PRO_CODIGO" type="xs:string" />
+              <xs:element name="PRO_DESCRIPCION" type="xs:string" />
+              <xs:element name="PRO_PRECIO" type="xs:decimal" />
+              <xs:element name="PRO_UNIDAD" type="xs:string" />
+              <xs:element name="COD_MARCA" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table" />
+      <xs:field xpath="mstns:PRO_CODIGO" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

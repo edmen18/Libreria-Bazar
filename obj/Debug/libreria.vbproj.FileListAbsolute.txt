@@ -1,0 +1,9 @@
+D:\Todo\EDGAR_TODO\libreria\libreria\bin\libreria.exe.config
+D:\Todo\EDGAR_TODO\libreria\libreria\obj\Debug\libreria.exe
+D:\Todo\EDGAR_TODO\libreria\libreria\obj\Debug\libreria.pdb
+D:\UNIDAD D\Proyectos\visual 2008\libreria\libreria\bin\libreria.exe.config
+D:\UNIDAD D\Proyectos\visual 2008\libreria\libreria\obj\Debug\libreria.exe
+D:\UNIDAD D\Proyectos\visual 2008\libreria\libreria\obj\Debug\libreria.pdb
+D:\Proyectos\visual 2008\libreria\libreria\bin\libreria.exe.config
+D:\Proyectos\visual 2008\libreria\libreria\obj\Debug\libreria.exe
+D:\Proyectos\visual 2008\libreria\libreria\obj\Debug\libreria.pdb
